@@ -21,7 +21,7 @@
 	animation-name:poping;
 	animation-duration:20s;
 	animation-iteration-count:infinite;
-	
+
 	}
 	img{
 	border:2px solid aquamarine;
