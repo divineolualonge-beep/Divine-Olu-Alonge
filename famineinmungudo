@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" 
+	content="width=device-width, initial-scale=1.0">
+	<title>The famine in Mungundo</title>
+	
+	<style type="text/css">
+	h1{
+	background:conic-gradient(#0A70FA,#6000A5);
+	border-radius:15px;
+	padding:15px;
+	}
+	body{
+	background:linear-gradient(to right, grey,silver);
+	}
+	#img1{
+	border:3px double white;
+	border-radius:100%;
+	animation-name:poping;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	
+	}
+	img{
+	border:2px solid aquamarine;
+	border-radius:10px;
+	}
+	a{
+	text-decoration:none;
+	color:gold;
+	font-weight:600;
+	}
+	button{
+	padding:15px;
+	background-color:blue;
+	border-radius:15px;
+	}
+	@keyframes poping{
+	0%{transform:scale(1)}
+	50%{transform:scale(0.8)}
+	100%{transform:scale(1)}
+	0%{background-color:blue}
+	50%{background-color:black}
+	100%{background-color:blue}
+	}
+	button{
+	animation-name:poping;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	}
+	
+	</style>
+	</head>
+	<body>
+	<h1>The famine in Mungundo</h1>
+	<img id="img1"src="dr.jpg" width="100%">
+	<p id="p1">&nbsp;&nbsp;Once upon a time, 
+	there lived a tortoise in the land of 
+	Munguda, his name Kamfor. Kamfor was 
+	popularly known for his greed and 
+	selfishness, which the whole commmunity 
+	think that this kind of behaviour 
+	shouldn't be coming from Kamfor because 
+	of his situation of sluggishness and 
+	slowliness.</p>
+	<img src="lseftad.jpg" width="100%">
+	
+	<p id="p2">&nbsp;&nbsp;Kamfor had a 
+	friend who is a dog,  
+	his name is Mopoh. Unlike Kamfor, Mopoh 
+	is a wise, fast and a smart person, 
+	though he is not perfectly moral, yet, 
+	his widom and decency still outbeat 
+	that of Kamfor the Tortoise.</p>
+	
+	<p id="p3">&nbsp;&nbsp;There came a 
+	season in the village of Munguda when
+	neither rain nor dew fall, as a result of 
+	this, there was a draught which led to a 
+	great famine in the land. At this time ,
+	everybody even including Lion the king were 
+	been striken with serious hunger and poverty.
+	</p>
+	
+	<img src="hl.jpg" width="100%"><br>
+	<button><a href="" >click to continue</a>
+	</button>
+	</body>
+	</html>
